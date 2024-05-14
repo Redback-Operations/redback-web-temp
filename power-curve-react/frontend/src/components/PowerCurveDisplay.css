@@ -1,0 +1,62 @@
+.power-curve-display {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content vertically */
+  }
+  
+  .power-curve-display h1 {
+    margin-bottom: 20px;
+    margin-left: 200px; /* Adjust the left margin as needed */
+  }
+  
+  .graph-container {
+    display: flex;
+    align-items: center; /* Center content vertically */
+  }
+  
+  .graph-container .graph {
+    max-width: 80%;
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .graph-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .data-container-box {
+    background-color: #E97462;
+    padding: 20px;
+    width: 30%; /* Shorter length */
+    margin-top: 20px; /* Add margin to the top of the container */
+  }
+  
+  .data-container {
+    flex: 1;
+  }
+  
+  .data-container h2 {
+    margin-bottom: 10px;
+    text-align: center; /* Center the heading */
+  }
+  
+  .data-container table {
+    width: 100%; /* Ensure the table takes up the full width of the container */
+    margin-top: 10px; /* Add margin to the top of the table */
+    border-collapse: collapse; /* Collapse borders */
+  }
+  
+  .data-container th,
+  .data-container td {
+    padding: 8px; /* Add padding to cells */
+    border: 1px solid #fff; /* Add border to cells */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .data-container th {
+    background-color: #E97462; /* Background color for table header */
+    color: #fff; /* Text color for table header */
+  }
+  

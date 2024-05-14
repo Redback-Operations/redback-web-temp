@@ -1,0 +1,13 @@
+.header {
+    background-image: url('/public/photos/Pic1.webp');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
