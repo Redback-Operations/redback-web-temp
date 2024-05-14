@@ -1,0 +1,6 @@
+pandas
+numpy
+flask_cors
+matplotlib
+scipy
+watchdog >= 4.0.0
