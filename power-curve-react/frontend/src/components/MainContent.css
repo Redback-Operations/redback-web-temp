@@ -1,16 +1,22 @@
 .main-content {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .power-curve-btn {
-    background-color: #ff0000; /* Red color for visibility */
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    outline: none;
-  }
-  
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 260px;
+}
+
+.power-curve-btn {
+  background-color: #E9624C; /* Updated color theme */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.power-curve-btn:hover {
+  background-color: #692E47; /* Updated hover color */
+  transform: scale(1.05);
+}

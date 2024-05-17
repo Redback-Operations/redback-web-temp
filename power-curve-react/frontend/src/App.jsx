@@ -5,10 +5,10 @@ import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 import DateRangeForm from "./components/DateRangeForm";
 import PowerCurveDisplay from "./components/PowerCurveDisplay";
+import './global.css';
 
 function App() {
   const [graphData, setGraphData] = useState(null);
-  
 
   return (
     <Router>
