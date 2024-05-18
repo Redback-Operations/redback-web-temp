@@ -7,5 +7,5 @@ To install:
 2. In frontend dir: `npm install`
 
 To run:
-1. In backend dir: `python ap.py`
+1. In backend dir: `python app.py`
 2. In frontend dir: `npm run dev`
