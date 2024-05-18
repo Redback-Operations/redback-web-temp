@@ -1,0 +1,57 @@
+.form-container {
+  width: 50%;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f0f0f0;
+  border-radius: 8px; /* Add border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.form-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 1.5rem; /* Increase margin between form groups */
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold; /* Make labels bold */
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Add border radius */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+  transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+  border-color: #E9624C; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+button {
+  background-color: #E9624C;
+  color: black;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 4px; /* Add border radius */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+button:hover {
+  background-color: #692E47; /* Change hover background color */
+  color: white;
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
